@@ -1,0 +1,18 @@
+Windows quick start (console)
+
+Option A: run from source (no build)
+1) Install Python 3.10+ from https://www.python.org/downloads/
+2) Download the project ZIP and extract it.
+3) Double click run_sender.bat
+4) Edit message.txt and run run_sender.bat again.
+
+Option B: build a portable exe
+1) Install Python 3.10+.
+2) Double click build_windows.bat
+3) The exe will be in dist\BotSender.exe
+4) Run it:
+   dist\BotSender.exe --text-file message.txt
+
+Notes
+- Tokens are read from .env (created by the app). If you need manual setup, add TELEGRAM_BOT_TOKEN and VK_ACCESS_TOKEN to .env.
+- For a test run without sending, add --dry-run to the command.

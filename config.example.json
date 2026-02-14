@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "interval_seconds": 2,
+    "telegram_interval_seconds": null,
+    "vk_interval_seconds": null,
+    "avoid_duplicate": true,
+    "state_file": ".state.json",
+    "telegram_parse_mode": "HTML",
+    "vk_api_version": "5.199"
+  },
+  "telegram": {
+    "enabled": true,
+    "targets": []
+  },
+  "vk": {
+    "enabled": true,
+    "targets": []
+  }
+}

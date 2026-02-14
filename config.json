@@ -1,0 +1,31 @@
+{
+  "settings": {
+    "interval_seconds": 2,
+    "telegram_interval_seconds": null,
+    "vk_interval_seconds": null,
+    "avoid_duplicate": true,
+    "state_file": ".state.json",
+    "telegram_parse_mode": "HTML",
+    "vk_api_version": "5.199",
+    "schedule_enabled": false,
+    "schedule_time": "",
+    "schedule_timezone": "Europe/Moscow",
+    "client_interval_seconds": 10.0,
+    "client_max_messages": 100
+  },
+  "telegram": {
+    "enabled": true,
+    "targets": []
+  },
+  "vk": {
+    "enabled": true,
+    "targets": []
+  },
+  "last_payload": {
+    "mode": "client",
+    "message": "🚀 ПРИНИМАЕМ В АРЕНДУ ВСЕ ТОРГОВЫЕ АККАУНТЫ! 🚀\r\nИщем аккаунты на торговых площадках РФ (Avito, Yula, CIAN, DomClick и др.) для бизнеса. Цена – 3000 руб за 24 часа!\r\n🔥 Верифицированные, с рейтингом, историей – идеально для объявлений и продаж.\r\n📈 Полная конфиденциальность, оплата вперед, возврат без изменений.\r\n💥 Подходят любые ниши: товары, услуги, недвижка.\r\nГотов сдать? Пиши в ЛС @recks12 с деталями аккаунта! Места ограничены. 🌟",
+    "dry_run": false,
+    "skip_archived": false,
+    "max_messages": 100
+  }
+}
