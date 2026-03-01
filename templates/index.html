@@ -229,11 +229,11 @@
         {% endif %}
 
         <div class="tabs">
-            <button class="tab active" onclick="switchTab('message')">Сообщение</button>
-            <button class="tab" onclick="switchTab('telegram')">Telegram</button>
-            <button class="tab" onclick="switchTab('vk')">VK</button>
-            <button class="tab" onclick="switchTab('settings')">Настройки</button>
-            <button class="tab" onclick="switchTab('schedule')">Расписание</button>
+            <button class="tab active" onclick="switchTab('message', event)">Сообщение</button>
+            <button class="tab" onclick="switchTab('telegram', event)">Telegram</button>
+            <button class="tab" onclick="switchTab('vk', event)">VK</button>
+            <button class="tab" onclick="switchTab('settings', event)">Настройки</button>
+            <button class="tab" onclick="switchTab('schedule', event)">Расписание</button>
         </div>
 
         <form method="POST" id="mainForm">
@@ -473,7 +473,7 @@
     </div>
 
     <script>
-        function switchTab(tabName) {
+        function switchTab(tabName, event) {
             document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
             document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
             
